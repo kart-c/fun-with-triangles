@@ -17,7 +17,7 @@ body {
 	background-color: var(--primary-color);
 }
 
-.main-header__heading a {
+.main-header__heading {
 	margin: 0;
 	text-decoration: none;
 	color: #000;
@@ -86,4 +86,5 @@ input::-webkit-inner-spin-button {
 	width: 50%;
 	resize: none;
 	height: 5rem;
+	font-family: 'Roboto Slab', serif;
 }
