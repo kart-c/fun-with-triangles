@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab&display=swap');
+
+:root {
+	--primary-color: #f014bd;
+	--secondary-color: #f17ad6;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+.main-header {
+	padding: 1rem;
+	background-color: var(--primary-color);
+}
+
+.main-header__heading a {
+	margin: 0;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Bangers', serif;
+	letter-spacing: 5px;
+}
+
+.main-nav__lists {
+	text-align: right;
+	list-style: none;
+}
+
+.main-nav__list {
+	display: inline-block;
+	margin: 0 0.7rem;
+}
+
+.main-nav__list a {
+	text-decoration: none;
+	color: #000;
+}
+
+main {
+	text-align: center;
+	max-width: 35rem;
+	margin: auto;
+	padding: 1rem;
+}
+
+label {
+	margin: 1rem;
+	display: block;
+}
+
+input {
+	display: block;
+	margin: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	appearance: none;
+}
+
+.checkBtn {
+	border: none;
+	display: block;
+	padding: 0.5rem 1rem;
+	margin: 1rem auto;
+	background-color: var(--primary-color);
+	color: #fff;
+	cursor: pointer;
+}
+
+.checkBtn:hover {
+	background-color: var(--secondary-color);
+	color: #000;
+}
+
+.checkBtn:active {
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+#output {
+	width: 50%;
+	resize: none;
+	height: 5rem;
+}
