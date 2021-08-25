@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Slab:wght@400;700&display=swap');
 
 :root {
-	--primary-color: #f014bd;
+	--primary-color: #ff25b6;
 	--secondary-color: #f17ad6;
+	--background: #ffe1f2;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto Slab', serif;
+	background-color: var(--background);
 }
 
 .main-header {
@@ -86,5 +88,7 @@ input::-webkit-inner-spin-button {
 	width: 50%;
 	resize: none;
 	height: 5rem;
+	border: 2px solid;
 	font-family: 'Roboto Slab', serif;
+	margin-bottom: 1.5rem;
 }
