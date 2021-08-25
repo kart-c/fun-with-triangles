@@ -1,0 +1,20 @@
+.quiz-subheading {
+	font-weight: 700;
+}
+
+.question-container {
+	margin: 2rem 0 0;
+}
+
+input {
+	display: inline-block;
+}
+
+label {
+	display: inline-block;
+	margin: 1rem 0.5rem;
+}
+
+.checkBtn {
+	margin-bottom: 7rem;
+}
