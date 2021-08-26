@@ -3,18 +3,36 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+		/>
 		<link rel="stylesheet" href="../CSS/main.css" />
 		<title>Fun With Triangles</title>
 	</head>
 	<body>
+		<div class="backdrop"></div>
 		<header class="main-header">
 			<h1 class="main-header__heading">Fun with Triangles</h1>
+			<div class="mobile-nav__icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
 			<nav>
 				<ul class="main-nav__lists">
 					<li class="main-nav__list"><a href="../index.html">Is Triangle?</a></li>
 					<li class="main-nav__list"><a href="quiz.html">Quiz</a></li>
 					<li class="main-nav__list"><a href="hyptotenuse.html">Hypotenuse</a></li>
 					<li class="main-nav__list"><a href="area.html">Area of Triangle</a></li>
+				</ul>
+			</nav>
+			<nav class="mobile-nav">
+				<ul class="mobile-nav__lists">
+					<li class="mobile-nav__list"><a href="../index.html">Is Triangle?</a></li>
+					<li class="mobile-nav__list"><a href="quiz.html">Quiz</a></li>
+					<li class="mobile-nav__list"><a href="hyptotenuse.html">Hypotenuse</a></li>
+					<li class="mobile-nav__list"><a href="area.html">Area of Triangle</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -25,6 +43,27 @@
 			<button class="checkBtn">Get Area</button>
 			<textarea id="output" disabled>Your output will be shown here</textarea>
 		</main>
+		<footer>
+			<ul class="footer-social">
+				<li class="footer-social__links">
+					<a href="https://twitter.com/kart_c11"
+						><i class="large icons"><i class="twitter icon"></i></i
+					></a>
+				</li>
+				<li class="footer-social__links">
+					<a
+						href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+						><i class="large icons"><i class="linkedin icon"></i></i
+					></a>
+				</li>
+				<li class="footer-social__links">
+					<a href="https://github.com/kart-c"
+						><i class="large icons"><i class="github icon"></i></i
+					></a>
+				</li>
+			</ul>
+		</footer>
 		<script src="../JS/area.js"></script>
+		<script src="../JS/backdrop.js"></script>
 	</body>
 </html>

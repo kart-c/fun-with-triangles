@@ -15,6 +15,14 @@ label {
 	margin: 1rem 0.5rem;
 }
 
+ol {
+	padding: 2rem;
+}
+
 .checkBtn {
 	margin-bottom: 2rem;
+}
+
+footer {
+	position: relative;
 }
